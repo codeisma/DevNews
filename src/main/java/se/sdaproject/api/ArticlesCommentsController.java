@@ -1,10 +1,15 @@
-package se.sdaproject;
+package se.sdaproject.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+import se.sdaproject.api.exception.ItemNotFoundException;
+import se.sdaproject.model.Articles;
+import se.sdaproject.model.ArticlesComments;
+import se.sdaproject.repository.ArticlesCommentsRepository;
+import se.sdaproject.repository.ArticlesRepository;
 
 import java.util.List;
 

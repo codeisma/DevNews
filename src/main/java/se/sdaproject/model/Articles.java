@@ -1,4 +1,4 @@
-package se.sdaproject;
+package se.sdaproject.model;
 
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
